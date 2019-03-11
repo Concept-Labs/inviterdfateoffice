@@ -1,0 +1,26 @@
+<!DOCTYPE html> 
+<html lang="ua">
+<head>
+	<title>{{$title}}</title>
+	<meta name="title" content="{{$title}}" />
+	<meta description="{{$description}}">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link rel="shortcut icon" href="/img/icon.png" type="image/x-icon">
+	{{$headfiles}}
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+</head>
+<body>
+	{{$header}}
+	<div class="wrapper">	
+		<main>
+			<div class="content_resize">
+				{{$leftblock}}
+				{{$content}}
+			</div>
+		</main>
+	</div>
+	
+	{{$footer}}
+	
+</body>
+</html>
